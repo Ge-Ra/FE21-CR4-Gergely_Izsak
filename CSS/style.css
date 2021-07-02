@@ -32,7 +32,13 @@ nav a {
 
 main {
   font-family: 'Luckiest Guy', cursive;
-}
+  background-color: rgb(18,34,134);
+  color: white;
+ }
+
+ main h1 {
+   padding: 1em;
+ }
 
 /* STYLE OF FOOTER */
 

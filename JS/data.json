@@ -1,99 +1,115 @@
 let movies = `
 [
     {
+        "id": "#1",
         "movieName": "Dragon Ball Z: Dead Zone",
         "image": "Images/Dragon_Ball_Z_Movie_1_English_Cover.jpg",
         "release": "July 15, 1989",
-        "likes": 7000,
+        "likes": "7000"
     },
     {
+        "id": "#2",
         "movieName": "Dragon Ball Z: The World's Strongest",
         "image": "Images/Dragon_Ball_Z_Movie_2_English_Cover.jpg",
         "release": "March 10, 1990",
-        "likes": 7500,
+        "likes": "7500"
     },
     {
+        "id": "#3",
         "movieName": "Dragon Ball Z: The Tree of Might",
         "image": "Images/Dragon_Ball_Z_Movie_3_English_Cover.jpg",
         "release": "July 7, 1990",
-        "likes": 7000,
+        "likes": "7000"
     },
     {
+        "id": "#4",
         "movieName": "Dragon Ball Z: Lord Slug",
         "image": "Images/Dragon_Ball_Z_Movie_4_English_Cover.jpg",
         "release": "March 9, 1991",
-        "likes": 7000,
+        "likes": "7000"
     },
     {
+        "id": "#5",
         "movieName": "Dragon Ball Z: Cooler's Revenge",
         "image": "Images/Dragon_Ball_Z_Movie_5_English_Cover.jpg",
         "release": "July 20, 1991",
-        "likes": 8000,
+        "likes": "8000"
     },
     {
+        "id": "#6",
         "movieName": "Dragon Ball Z: The Return of Cooler",
         "image": "Images/Dragon_Ball_Z_Movie_6_English_Cover.jpg",
         "release": "March 7, 1992",
-        "likes": 7500,
+        "likes": "7500"
     },
     {
+        "id": "#7",
         "movieName": "Dragon Ball Z: Super Android 13!",
         "image": "Images/Dragon_Ball_Z_Movie_7_English_Cover.jpg",
         "release": "July 11, 1992",
-        "likes": 7500,
+        "likes": "7500"
     },
     {
+        "id": "#8",
         "movieName": "Dragon Ball Z: Broly – The Legendary Super Saiyan",
         "image": "Images/Dragon_Ball_Z_Movie_8_English_Cover.jpg",
         "release": "March 6, 1993",
-        "likes": 7000,
+        "likes": "7000"
     },
     {
+        "id": "#9",
         "movieName": "Dragon Ball Z: Bojack Unbound",
         "image": "Images/Dragon_Ball_Z_Movie_9_English_Cover.jpg",
         "release": "July 10, 1993",
-        "likes": 7500,
+        "likes": "7500"
     },
     {
+        "id": "#10",
         "movieName": "Dragon Ball Z: Broly – Second Coming",
         "image": "Images/Dragon_Ball_Z_Movie_10_English_Cover.jpg",
         "release": "March 12, 1994",
-        "likes": 8500,
+        "likes": "8500"
     },
     {
+        "id": "#11",
         "movieName": "Dragon Ball Z: Bio-Broly",
         "image": "Images/Dragon_Ball_Z_Movie_11_English_Cover.jpg",
         "release": "July 9, 1994",
-        "likes": 7500,
+        "likes": "7500"
     },
     {
+        "id": "#12",
         "movieName": "Dragon Ball Z: Fusion Reborn",
         "image": "Images/Dragon_Ball_Z_Movie_12_English_Cover.jpg",
         "release": "March 4, 1995",
-        "likes": 9000,
+        "likes": "9000"
     },
     {
+        "id": "#13",
         "movieName": "Dragon Ball Z: Wrath of the Dragon",
         "image": "Images/Dragon_Ball_Z_Movie_13_English_Cover.jpg",
         "release": "July 15, 1995",
-        "likes": 7000,
+        "likes": "7000"
     },
     {
+        "id": "#14",
         "movieName": "Dragon Ball Z: Battle of Gods",
         "image": "Images/BattleofGodsscan1.jpg",
         "release": "March 30, 2013",
-        "likes": 9000,
+        "likes": "9000"
     },
     {
+        "id": "#15",
         "movieName": "Dragon Ball Z: Resurrection 'F'",
         "image": "Images/Dbz_movie_2015_poster.jpg",
         "release": "April 11, 2015",
-        "likes": 8500,
+        "likes": "8500"
     },
     {
+        "id": "#16",
         "movieName": "Dragon Ball Super: Broly",
         "image": "Images/Dragon_Ball_Super_Broly.jpg",
         "release": "November 14, 2018",
-        "likes": 9999,
+        "likes": "9999"
     }
 ]`
