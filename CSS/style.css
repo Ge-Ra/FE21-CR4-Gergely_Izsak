@@ -1,0 +1,31 @@
+/* STYLE OF HEADER */
+
+header {
+  background-color: black;
+  color: white;
+}
+
+header h1 {
+  padding: 0.3em;
+  border-bottom: 2px solid white;
+}
+
+header img {
+    width: 60%;
+    height: auto;
+}
+
+/* STYLE OF NAV */
+
+nav {
+  background-color: black;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+nav a {
+    color: white;
+}
+
+/* STYLE OF MAIN */
+
