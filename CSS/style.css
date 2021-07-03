@@ -6,46 +6,57 @@ header {
 }
 
 header h1 {
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   padding: 0.3em;
-  border-bottom: 3px solid rgb(250,89,28);
+  border-bottom: 3px solid rgb(250, 89, 28);
 }
 
 header img {
-    width: 60%;
-    height: auto;
+  width: 40%;
+  height: auto;
 }
 
 /* STYLE OF NAV */
 
 nav {
+  font-family: "Luckiest Guy", cursive;
   background-color: black;
-  border-top: 3px solid rgb(250,89,28);
-  border-bottom: 3px solid rgb(250,89,28);
+  border-top: 3px solid rgb(250, 89, 28);
+  border-bottom: 3px solid rgb(250, 89, 28);
 }
 
 nav a {
-    color: white;
+  color: white;
 }
 
 /* STYLE OF MAIN */
 
 main {
-  font-family: 'Luckiest Guy', cursive;
-  background-color: rgb(18,34,134);
+  font-family: "Luckiest Guy", cursive;
+  background-color: rgb(18, 34, 134);
   color: white;
- }
+}
 
- main h1 {
-   padding: 1em;
- }
+main h1 {
+  padding: 1em;
+}
+
+#movieCards .card:hover {
+  box-shadow: 0 5px 50px rgb(255, 238, 1), 0 15px 52px rgb(255, 238, 1);
+}
+
+@media screen and (max-width: 786px) {
+  #movieCards .card {
+    box-shadow: 0 5px 10px rgb(255, 238, 1), 0 15px 32px rgb(255, 238, 1);
+  }
+}
 
 /* STYLE OF FOOTER */
 
 footer {
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   background-color: black;
-  border-top: 3px solid rgb(250,89,28);
+  border-top: 3px solid rgb(250, 89, 28);
   color: white;
   padding: 0.3em;
 }

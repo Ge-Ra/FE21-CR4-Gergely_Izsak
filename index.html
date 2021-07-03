@@ -11,38 +11,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
-
-
 </head>
 
 <body>
+
+    <!-- HEADER -->
+
     <header class="text-center">
         <h1 class="text-center">Dragon Ball Movies</h1>
         <img class="img-fluid" src="Images/2000px-Dragonball_Z_Logo.svg.png" alt="DBZ logo">
     </header>
-    <nav class="navbar navbar-dark ps-5">
+
+    <!-- NAV -->
+
+    <nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark ps-5">
         <ul class="navbar-nav navbar-brand">
             <li class="navbar-item">
                 <a class="nav-link active" aria-current="page" href="#">HOME</a>
             </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="#">Kame House</a>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="#">Planet Vegeta</a>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="#">Namek</a>
+            </li>
         </ul>
     </nav>
+
+    <!-- MAIN -->
+
     <main class="container-fluid">
-        <div>
+        <div class="d-flex justify-content-between">
+            <div></div>
             <h1 class="text-center">Movies</h1>
-            <button id="sort" class="justify-content-end">sort</button>
+            <button id="sort" class="align-self-center btn bg-light">SORT &#8593;&#8595;</button>
         </div>
         <div id="movieCards"
-            class="row d-flex justify-content-center justify-content-md-around justify-content-lg-around"></div>
+            class="row d-flex justify-content-center justify-content-md-around justify-content-lg-around">
+        </div>
     </main>
 
-
-    </div>
+    <!-- FOOTER -->
 
     <footer class="text-center p-2">
         <h3>Dragon Ball Movies</h3>
         <p><small>Made by GeRa</small></p>
     </footer>
+
+    <!-- JSON AND JAVASCRIPT -->
+
     <script src="JS/data.json"></script>
     <script src="JS/script.js"></script>
 </body>
